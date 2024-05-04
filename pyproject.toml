@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "practice-scraping"
+version = "0.1.0"
+description = "practicing scraping the web"
+authors = ["Dan Nelson <danelson@nwi.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.20.0"
+pandas = "^2.2.2"
+pathlib = "^1.0.1"
+bs4 = "^0.0.2"
+fake-useragent = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
